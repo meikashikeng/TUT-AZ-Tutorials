@@ -1,2 +1,9 @@
 public class main (String[]args){
-System.out.println("H");
+
+
+String clientName;
+
+Scanner kb = new Scanner (System.in);
+clientName = kb.nextLine();
+
+System.out.println(clientName);
